@@ -40,7 +40,7 @@ jobs:
         password: ${{secrets.GITHUB_TOKEN}}
 
     - name: Build the Docker image
-      run: docker build . --file Dockerfile --tag ghcr.io/RoshanPlaxo/firstrepo:alpha --push    
+      run: docker build . --file Dockerfile --tag ghcr.io/RoshanPlaxo/first_repo:alpha --push    
 
 
         
