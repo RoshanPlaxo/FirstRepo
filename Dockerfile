@@ -1,5 +1,5 @@
 FROM openjdk:17
 WORKDIR /app
-COPY ..
+COPY . /app
 RUN ./gradlew build
 CMD ["./gradlew", "run"]
